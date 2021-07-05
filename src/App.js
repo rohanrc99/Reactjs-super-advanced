@@ -1,23 +1,28 @@
 // import logo from './logo.svg';
-import './App.css';
-import Greet from './1. components/1. functional/Greet'
-import {Named} from './1. components/1. functional/Named'
-import Functional from './1. components/1. functional/Functional'
-import Functional1 from './1. components/1. functional/Functional1'
+// import './App.css';
+// import Greet from './1. components/1. functional/Greet'
+// import {Named} from './1. components/1. functional/Named'
+// import Functional from './1. components/1. functional/Functional'
+// import Functional1 from './1. components/1. functional/Functional1'
 // import Welcome from './1. components/1. class/Welcome'
-import Hello from './2. jsx/Hello';
-import Greetings from './3. props/Greetings';
-import Welcome from './3. props/Welcome';
-import Counter from './4. states/Counter';
-import Message from './4. states/Message';
-import Person from './4. states/Person';
-import FunctionClick from './5. event-handling/FunctionClick';
-import ClassClick from './5. event-handling/ClassClick';
-import EventBind from './5. event-handling/EventBind';
+// import Hello from './2. jsx/Hello';
+// import Greetings from './3. props/Greetings';
+// import Welcome from './3. props/Welcome';
+// import Counter from './4. states/Counter';
+// import Message from './4. states/Message';
+// import Person from './4. states/Person';
+// import FunctionClick from './5. event-handling/FunctionClick';
+// import ClassClick from './5. event-handling/ClassClick';
+// import EventBind from './5. event-handling/EventBind';
 // import Parent from './5. event-handling/parent-child/Parent';
-import UserGreeting from './conditional-rendering/UserGreeting';
-import UserGreetingTwo from './conditional-rendering/UserGreetingTwo';
-import UserThree from './conditional-rendering/UserThree';
+// import UserGreeting from './conditional-rendering/UserGreeting';
+// import UserGreetingTwo from './conditional-rendering/UserGreetingTwo';
+// import UserThree from './conditional-rendering/UserThree';
+import Namelist from './7.list-rendering/Namelist';
+import ListTwo from './7.list-rendering/ListTwo';
+import ListThree from './7.list-rendering/ListThree';
+import ListFour from './7.list-rendering/ListFour';
+import Stylesheet from './8. styling/Stylesheet';
 
 function Home()
 {
@@ -30,9 +35,14 @@ const Contact = () => <h1>This is Contact Component</h1>
 function App() {
   return (
     <div className="container">
-      <UserGreeting />
+      {/* <Stylesheet/> */}
+      <Namelist/><hr /><hr />
+      {/* <ListTwo /><hr /><hr />
+      <ListThree /><hr /><hr /> */}
+      <ListFour />
+      {/* <UserGreeting />
       <UserGreetingTwo />
-      <UserThree />
+      <UserThree /> */}
       {/* <EventBind/> */}
       {/* <ClassClick/> */}
       {/* <FunctionClick/> */}
